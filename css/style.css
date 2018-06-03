@@ -14,10 +14,18 @@ a:hover
   color:#8c0712;
 }
 
+img.displayed
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 h1
 {
   font-family: 'BioRhyme', serif;
   font-family: 'BioRhyme Expanded', serif;
+  text-align: center;
   font-size: 2.5em;
   font-weight: bold;
   font-style: italic;
@@ -27,20 +35,49 @@ h1
 
 h2
 {
-  font-family: 'BioRhyme', serif;
   font-family: 'BioRhyme Expanded', serif;
+  text-align: center;
   font-size: 1.5em;
   font-weight: bold;
   color: #black;
 }
 
+h3
+{
+  font-family: 'BioRhyme Expanded', serif;
+  text-align: center;
+  font-size: 1em;
+  font-weight: lighter;
+  color: #black;
+}
+
+h4
+{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #black;
+}
+
 p
 {
-  width: 60%;
+  width: 70%;
   text-align: justify;
   padding: 12px;
   font-size: 1em;
   color: #080705;
+  margin: left;
+}
+
+.p1
+{
+  width: 80%;
+  text-align: justify;
+  padding: 12px;
+  font-size: 1em;
+  color: #080705;
+  margin: left;
 }
 
 input:focus
@@ -51,4 +88,17 @@ input:focus
 textarea:focus
 {
   background-color: #e6e6e6;
+}
+
+#conteneur
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.element
+{
+  width: 60%;
+  margin: 20px 50px 50px 100px;
 }
