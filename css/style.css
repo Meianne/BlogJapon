@@ -21,6 +21,8 @@ img.displayed
     margin-right: auto;
   }
 
+
+
 h1
 {
   font-family: 'BioRhyme', serif;
@@ -92,13 +94,18 @@ textarea:focus
 
 #conteneur
 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px 0 50px;
 }
 
-.element
+.element1
 {
-  width: 60%;
+  width: 90%;
   margin: 20px 50px 50px 100px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
 }
