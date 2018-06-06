@@ -118,7 +118,13 @@ textarea {
     border-radius: 2px;
   }
 
+  .flex {
+    display: flex;
+  }
 
+  .icon {
+    width: 10%;
+  }
 
 /* end global classes */
 
@@ -132,6 +138,11 @@ a:hover {
 img {
   width: 25%;
 }
+
+img {
+  width: 25%;
+}
+
 
 header section, footer {
   padding: 3em;
@@ -151,21 +162,24 @@ textarea:focus
   background-color: #e6e6e6;
 }
 
+ul {
+  list-style-type: none;
+}
+
+
+
 /*End common rules*/
 
 
 
 /* Start Header style*/
 
-img.displayed
-{
+.displayed {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 
-  h1
-  {
+h1 {
     font-family: 'BioRhyme Expanded', serif;
     text-align: center;
     font-size: 2.5em;
@@ -175,13 +189,20 @@ img.displayed
     text-shadow: 4px 4px 4px #aaa;
   }
 
-  nav
+nav
   {
-    display: block;
-    justify-content: center;
+    justify-content: space-around;
   }
 
-  h2 span {
+nav aside {
+    margin: 1em;
+  }
+
+  nav ul li {
+    margin: 0 1em;
+  }
+
+h2 span {
     margin: 50px 50px 0 50px;
   }
 
@@ -210,7 +231,7 @@ footer
 {
     width: 100%;
     display: inline-block;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     margin: 50px 50px 0 50px;
@@ -221,15 +242,16 @@ footer
   float: left;
   width: 30%;
   display: inline-block;
+  justify-content: space-around;
   text-align: center;
-margin-left: 50px;
-margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .element2
 {
-  margin-left: 50px;
   display: inline-block;
+  justify-content: space-around;
   width: 40%;
   text-align: center;
 }
@@ -237,8 +259,8 @@ margin-right: 50px;
 .element3
 {
   display: inline-block;
+  justify-content: space-around;
   width: 30%;
-  justify-content: center;
   text-align: center;
 }
 

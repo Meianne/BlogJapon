@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="fr">
+<html class="no-js" lang="zxx">
 
 <head>
   <meta charset="utf-8">
@@ -22,7 +22,10 @@
   <!--
   ############## Place external ressources ###############
 -->
-  <link href="https://fonts.googleapis.com/css?family=BioRhyme|BioRhyme+Expanded|Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?BioRhyme+Expanded" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?Roboto+Mono" rel="stylesheet">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
@@ -46,28 +49,24 @@
 
  -->
 <header>
-
-
 <!-- ############## Insert Logo ############### -->
-<a href="index.html"><img class="displayed" src="img/logo-mini.png" alt="Ideogrammes de Japon sur fond soleil du drapeau japonais"></a><br>
+<section>
+    <a href="index.html"><img class="displayed" src="img/logo-mini.png" alt="Ideogrammes de Japon sur fond soleil du drapeau japonais"></a><br>
     <h1>いらっしゃいませ !</h1>
-
+</section>
 
 <!-- ############## Insert Navigation ############### -->
-<nav>
-  <div class="element1">
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="biographie.html">A propos de moi</a></li>
-      <li><a href="articles.html">Articles</a></li>
-      <li><a href="contact.html">Contact</a></li>
+<nav class="flex">
+    <ul class="flex">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="biographie.html">A propos</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
     </ul>
-  </div>
-
   <aside>
-    <a href="404.html">Connexion</a>
-    <a href="404.html">Inscription</a>
-  </aside>
+      <li><a href="404.html">Connexion</a></li>
+      <li><a href="404.html">Inscription</a></li>
+    </aside>
 </nav>
 
 </header>
@@ -91,7 +90,6 @@
 ############## Start Aside part ###############
 
 -->
-<div id="conteneur">
   <section>
     <div class="element1">
       <img src="img/biographie.jpg" alt="Biographie"><br>
@@ -99,17 +97,14 @@
           <h4>Mont Fuji <a href="articles.html">Lire</a><br></h4>
           <h4>Château d'Osaka <a href="articles.html">Lire</a><br></h4>
           <h4>Akihabara <a href="articles.html">Lire</a><br></h4>
-    </div>
 
-    <div class="element1">
       <h5>Suivez moi sur les réseaux sociaux</h5>
-       <a href="404.html"><img src="img/ico-facebook.png" alt=""></a>
-       <a href="404.html"><img src="img/ico-instagram.png" alt=""></a>
-       <a href="404.html"><img src="img/ico-twitter.png" alt=""></a>
-       <a href="404.html"><img src="img/ico-youtube.png" alt=""></a>
+       <a href="404.html"><img class="icon" src="img/ico-facebook.png" alt=""></a>
+       <a href="404.html"><img class="icon" src="img/ico-instagram.png" alt=""></a>
+       <a href="404.html"><img class="icon" src="img/ico-twitter.png" alt=""></a>
+       <a href="404.html"><img class="icon" src="img/ico-youtube.png" alt=""></a>
      </div>
-  </section>
-
+   </section>
 <!--
 
 ############## End Aside part ###############
@@ -148,47 +143,47 @@
 
 -->
 
-
   <section>
+    <h2>Les derniers articles</h2>
     <div class="element3">
       <article>
         <h3>Mont Fuji</h3>
-          <a href="articles.html"><img src="img/fujisan-mini.jpg" alt="Fujisan"></a>
-            <h6>Mont Fuji</h6>
-              <h4>Auteur - Date - Catégorie</h4>
-                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        <a href="articles.html"><img src="img/fujisan-mini.jpg" alt="Fujisan"></a>
+        <h6>Mont Fuji</h6>
+        <h4>Auteur - Date - Catégorie</h4>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <a href="articles.html">Lire la suite</a>
+        <a href="articles.html">Lire la suite</a>
       </article>
     </div>
 
     <div class="element3">
       <article>
         <h3>Château d'Osaka</h3>
-          <a href="articles.html"><img src="img/osakacastel-mini.jpg" alt="OsakaCastel"></a>
-            <h6>Château d'Osaka</h6>
-              <h4>Auteur - Date - Catégorie</h4>
-                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        <a href="articles.html"><img src="img/osakacastel-mini.jpg" alt="OsakaCastel"></a>
+        <h6>Château d'Osaka</h6>
+        <h4>Auteur - Date - Catégorie</h4>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <a href="articles.html">Lire la suite</a>
+        <a href="articles.html">Lire la suite</a>
       </article>
     </div>
 
     <div class="element3">
       <article>
         <h3>Akihabara</h3>
-          <a href="articles.html"><img src="img/akihabara-mini.jpg" alt="Akihabara"></a>
-            <h6>Akihabara</h6>
-              <h4>Auteur - Date - Catégorie</h4>
-                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        <a href="articles.html"><img src="img/akihabara-mini.jpg" alt="Akihabara"></a>
+        <h6>Akihabara</h6>
+        <h4>Auteur - Date - Catégorie</h4>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <a href="articles.html">Lire la suite</a>
+        <a href="articles.html">Lire la suite</a>
       </article>
     </div>
   </section>
