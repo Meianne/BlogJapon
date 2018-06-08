@@ -14,7 +14,7 @@
   <link rel="icon" href="favicon.ico" />
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
   <style>
 @import url('https://fonts.googleapis.com/css?family=BioRhyme|BioRhyme+Expanded|Roboto+Slab');
 </style>
@@ -31,14 +31,18 @@
         <h1>いらっしゃいませ !</h1>
 
     <!-- Insert Navigation -->
-<nav>
-  <ul>
-    <li><a href="index.html">Accueil</a></li>
-    <li><a href="biographie.html">About me</a></li>
-    <li> <a href="articles.html">Articles</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+    <nav class="flex">
+      <ul class="flex">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="biographie.html">A propos</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    <aside>
+        <a href="404.html">Connexion</a>
+        <a href="404.html">Inscription</a>
+    </aside>
+  </nav>
 
 </header>
 <!-- End Header part -->
@@ -46,16 +50,16 @@
   <!-- Start Content part -->
 
 <main>
-    <form class="" action="index.html" method="post">
+    <form class="flex" action="index.html" method="post">
       <p>
-        <label>Votre nom</label><br> <input type="text" name="nom" value=""><br>
-        <label>Votre adresse email</label><br> <input type="email" name="mail" value=""><br>
-        <label>Votre message</label><br> <textarea name="textarea" rows="8" cols="80"></textarea> <br>
-      <a href="404.html"><button type="button" name="button">Envoyer</button></a>
+        <label class="flex">Votre nom</label><input type="text" name="nom" value="">
+        <label class="flex">Votre adresse email</label><input type="email" name="mail" value="">
+        <label class="flex">Votre message</label><textarea name="textarea" rows="8" cols="80"></textarea>
+      </form>
+      <a class="btn" href="404.html">Envoyer</a>
       </p>
-    </form>
 
-<a href="index.html"><button type="button" name="button">Retour accueil</button></a>
+<a class="btn" href="index.html">Retour accueil</a>
 </main>
   <!-- End Content Part -->
 

@@ -25,6 +25,10 @@
             display: table-cell;
             vertical-align: middle;
             margin: 2em auto;
+            padding-bottom: 2em;
+        }
+        main {
+          padding-bottom: 1em;
         }
 
         h1 {
@@ -40,22 +44,39 @@
 
         @media only screen and (max-width: 280px) {
 
-            body, p {
+        body, p {
                 width: 95%;
             }
 
-            h1 {
+        h1 {
                 font-size: 1.5em;
                 margin: 0 0 0.3em;
             }
 
         }
 
+        .btn {
+          text-align: center;
+          background-color: #606060;
+          color: white;
+          padding: .3em .5em;
+          margin: 1em;
+          border-radius: 2px;
+        }
+
+        .displayed {
+            display: block;
+            margin: auto;
+            width: 55%;
+          }
+
     </style>
 </head>
 <body>
-        <img class="displayed" src="img/404.jpg" alt=""><br>
-<a href="contact.html"><button type="button" name="button">Retour</button></a><a href="index.html"><button type="button" name="button">Retour accueil</button></a>
+  <main>
+    <img class="displayed" src="img/404.jpg" alt="">
+  </main>
+  <footer><a class="btn" href="contact.html">Retour</a> <a class="btn" href="index.html">Retour accueil</a></footer>
 </body>
 </html>
 <!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
