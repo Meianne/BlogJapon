@@ -119,20 +119,16 @@
       <a class="btn" href="index.html"> Retour accueil </a><a class="btn" href="articles.html"> Article suivant </a>
     </div>
   </section>
-  <section>
-    <div class="article mainArticle shadow">
-      <h3>Laissez moi un message</h3>
-      <form action="404.html" method="post">
-      <p>
-      <label for="name" class="flex">Votre nom</label><input type="text" name="nom" id="nom" value="">
-      <label for="email" class="flex">Votre adresse email</label><input type="email" name="mail" id="mail" value="">
-      <label for="textarea" class="flex">Votre message</label><textarea name="textarea" id="textarea" rows="10" cols="100%"></textarea>
-      </form>
+    <fieldset class="article mainArticle shadow">
+      <legend>Laissez moi un message</legend>
+        <form action="404.html" method="post">
+        <label class="flex"> Votre nom </label><input type="text" name="name" placeholder="Votre nom">
+        <label class="flex"> Votre adresse email </label><input type="email" name="email" placeholder="Votre email">
+        <label class="flex"> Votre message </label><textarea name="textarea" rows="10" cols="100" placeholder="Tapez votre message ici"></textarea>
+        </form>
       <a class="btn" href="404.html">Envoyer</a>
       <a class="btn" href="index.html">Retour accueil</a>
-      </p>
-    </div>
-  </section>
+  </fieldset>
 </main>
   <!-- End Content Part -->
 
