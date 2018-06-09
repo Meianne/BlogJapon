@@ -5,68 +5,87 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Bienvenue sur Blog Japon</title>
-  <meta name="description" content="">
+  <meta name="description" content="Un blog entièrement consacré au Japon !">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+
+
+
+  <!--
+  ############## Place favicon.ico in the root directory ###############
+-->
   <link rel="icon" href="favicon.ico" />
 
+
+  <!--
+  ############## Place external ressources ###############
+-->
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?BioRhyme+Expanded" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?Roboto+Mono" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+  <!--
+  ############## Place css ###############
+-->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <style>
-@import url('https://fonts.googleapis.com/css?family=BioRhyme|BioRhyme+Expanded|Roboto+Slab');
-</style>
-</head>
 
+</head>
 <body>
 
-<header>
+  <header class="secondColor shadow">
+  <!-- ############## Insert Logo ############### -->
+  <section>
+    <a href="index.html">
+    <img class="displayed logo" src="img/logo-mini.png" alt="Ideogrammes de Japon sur fond soleil du drapeau japonais"></a>
+    <h1 class="font">いらっしゃいませ !</h1>
+  </section>
 
-<!-- Start Header part -->
-
-    <!-- Insert Logo -->
-    <a href="index.html"><img class="displayed" src="img/logo-mini.png" alt="Logo"></a><br>
-        <h1>いらっしゃいませ !</h1>
-
-    <!-- Insert Navigation -->
-    <nav class="flex">
-      <ul class="flex">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="biographie.html">A propos</a></li>
-        <li><a href="articles.html">Articles</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    <aside>
-        <a href="404.html">Connexion</a>
-        <a href="404.html">Inscription</a>
-    </aside>
-  </nav>
-
-</header>
+  <!-- ############## Insert Navigation ############### -->
+      <nav class="flex">
+        <ul class="flex">
+          <li><a href="index.html"><i class="fas fa-home"></i> Accueil </a></li>
+          <li><a href="biographie.html"><i class="far fa-address-card"></i> A propos </a></li>
+          <li><a href="articles.html"><i class="far fa-newspaper"></i> Articles </a></li>
+          <li><a href="contact.html"><i class="far fa-envelope"></i> Contact </a></li>
+        </ul>
+      <aside>
+          <a href="404.html"><i class="fas fa-users"></i> Connexion </a>
+          <a href="404.html"><i class="fas fa-sign-in-alt"></i> Inscription </a>
+      </aside>
+    </nav>
+  </header>
 <!-- End Header part -->
 
   <!-- Start Content part -->
 
-<main>
-    <form class="flex" action="index.html" method="post">
+  <main>
+    <section>
+      <div class="article mainArticle shadow">
+      <h3>Laissez moi un message</h3>
+      <form action="404.html" method="post">
       <p>
-        <label class="flex">Votre nom</label><input type="text" name="nom" value="">
-        <label class="flex">Votre adresse email</label><input type="email" name="mail" value="">
-        <label class="flex">Votre message</label><textarea name="textarea" rows="8" cols="80"></textarea>
+      <label for="name" class="flex">Votre nom</label><input type="text" name="nom" id="nom" value="">
+      <label for="email" class="flex">Votre adresse email</label><input type="email" name="mail" id="mail" value="">
+      <label for="textarea" class="flex">Votre message</label><textarea name="textarea" id="textarea" rows="10" cols="100%"></textarea>
       </form>
       <a class="btn" href="404.html">Envoyer</a>
+      <a class="btn" href="index.html">Retour accueil</a>
       </p>
-
-<a class="btn" href="index.html">Retour accueil</a>
+    </div>
+  </section>
 </main>
   <!-- End Content Part -->
 
 
 
   <!-- Start Footer part -->
-<footer class="footer">Copyright (c) 2018 Copyright Holder All Rights Reserved.</footer>
+  <footer class="footer"><p class="tCenter">Copyright (c) 2018 Copyright Holder All Rights Reserved.</p></footer>
 <!-- End Footer part -->
 
 

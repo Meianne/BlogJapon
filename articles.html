@@ -5,110 +5,134 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Bienvenue sur Blog Japon</title>
-  <meta name="description" content="">
+  <meta name="description" content="Un blog entièrement consacré au Japon !">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+
+
+
+  <!--
+  ############## Place favicon.ico in the root directory ###############
+-->
   <link rel="icon" href="favicon.ico" />
 
+
+  <!--
+  ############## Place external ressources ###############
+-->
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?BioRhyme+Expanded" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?Roboto+Mono" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+  <!--
+  ############## Place css ###############
+-->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <style>
-@import url('https://fonts.googleapis.com/css?family=BioRhyme|BioRhyme+Expanded|Roboto+Slab');
-</style>
+
 </head>
 
 <body>
 
-<header>
+  <header class="secondColor shadow">
+  <!-- ############## Insert Logo ############### -->
+  <section>
+    <a href="index.html">
+    <img class="displayed logo" src="img/logo-mini.png" alt="Ideogrammes de Japon sur fond soleil du drapeau japonais"></a>
+    <h1 class="font">いらっしゃいませ !</h1>
+  </section>
 
-<!-- Start Header part -->
-
-    <!-- Insert Logo -->
-    <a href="index.html"><img class="displayed" src="img/logo-mini.png" alt="Logo"></a><br>
-        <h1>いらっしゃいませ !</h1>
-
-    <!-- Insert Navigation -->
-<nav>
-  <ul>
-    <li><a href="index.html">Accueil</a></li>
-    <li><a href="biographie.html">About me</a></li>
-    <li> <a href="articles.html">Articles</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-
-</header>
+  <!-- ############## Insert Navigation ############### -->
+      <nav class="flex">
+        <ul class="flex">
+          <li><a href="index.html"><i class="fas fa-home"></i> Accueil </a></li>
+          <li><a href="biographie.html"><i class="far fa-address-card"></i> A propos </a></li>
+          <li><a href="articles.html"><i class="far fa-newspaper"></i> Articles </a></li>
+          <li><a href="contact.html"><i class="far fa-envelope"></i> Contact </a></li>
+        </ul>
+      <aside>
+          <a href="404.html"><i class="fas fa-users"></i> Connexion </a>
+          <a href="404.html"><i class="fas fa-sign-in-alt"></i> Inscription </a>
+      </aside>
+    </nav>
+  </header>
 <!-- End Header part -->
 
   <!-- Start Content part -->
-<main>
-  <h2>Mont Fuji</h2>
-  <img class="displayed" src="img/montfuji.jpg" alt="Fujisan">
+  <main>
+    <section>
+      <div class="article mainArticle shadow">
+      <figure>
+      <h2>Mont Fuji</h2>
+      <img class="displayed" src="img/montfuji.jpg" alt="Fujisan">
+      </figure>
       <p>Praesent efficitur nisi vel dolor vehicula vulputate. Mauris tempor ante vel tincidunt tempor.
         Fusce ornare, ex aliquam lobortis aliquet, orci nunc auctor massa, nec mollis purus turpis nec felis.
         Vestibulum ac enim commodo, porttitor diam vitae, elementum purus. Nunc eget nibh ac nunc pellentesque pretium eget vitae urna.
         Nam at elit nulla. Maecenas et elit nibh. Praesent libero nulla, vestibulum ut congue id, rutrum in felis. Nullam maximus lacinia eros sed mollis.
         Duis auctor ipsum nibh, eget elementum nunc efficitur a. Praesent sed purus vitae ligula facilisis dignissim.
 
-Curabitur laoreet nibh nec leo tristique, non condimentum dui rhoncus.
-Nam eu orci sit amet ligula porta vestibulum eget id nisi. Proin egestas gravida tellus, sed placerat nibh finibus ornare.
-Praesent eget egestas lectus. Cras nec dapibus est. Quisque sem odio, molestie vel commodo non, placerat id orci.
-Maecenas lacinia, sem sit amet sodales vehicula, nisl nulla semper purus, non placerat ligula nunc non enim.
-Suspendisse aliquet efficitur nibh, accumsan bibendum turpis. Aliquam in suscipit felis.
-Aenean dictum metus ac pellentesque tristique. Nunc lacus metus, pharetra a diam id, tincidunt ornare nibh.
-</p>
-<br>
-<br>
+        Curabitur laoreet nibh nec leo tristique, non condimentum dui rhoncus.
+        Nam eu orci sit amet ligula porta vestibulum eget id nisi. Proin egestas gravida tellus, sed placerat nibh finibus ornare.
+        Praesent eget egestas lectus. Cras nec dapibus est. Quisque sem odio, molestie vel commodo non, placerat id orci.
+        Maecenas lacinia, sem sit amet sodales vehicula, nisl nulla semper purus, non placerat ligula nunc non enim.
+        Suspendisse aliquet efficitur nibh, accumsan bibendum turpis. Aliquam in suscipit felis.
+        Aenean dictum metus ac pellentesque tristique. Nunc lacus metus, pharetra a diam id, tincidunt ornare nibh.
+      </p>
+      <figure>
+        <img class="displayed" src="img/worldorder.jpg" alt="WorldOrder">
+        <figcaption>World Order</figcaption>
+      </figure>
+      <p>
+      Suspendisse potenti. Maecenas vitae consectetur ligula, at faucibus dui.
+      Sed ultricies commodo nulla, nec hendrerit libero pulvinar at. Duis at nibh a nunc sodales gravida.
+      Pellentesque sed nisl mi. Aenean luctus augue quis ipsum pharetra, a auctor diam vehicula.
+      Nulla euismod, arcu porttitor gravida eleifend, purus ipsum luctus nunc, ut luctus nisi turpis a enim.
+      Morbi a pharetra eros. Donec porta nibh diam, faucibus aliquet augue fermentum eu. Vivamus faucibus mauris a libero viverra porta.
+      Fusce vitae lectus quam. Duis id semper velit, et efficitur massa. Suspendisse potenti. Sed euismod maximus nibh a aliquet.
 
-<img class="displayed" src="img/worldorder.jpg" alt="WorldOrder">
-<h6>World Order</h6>
+      Pellentesque a pretium augue, nec fermentum justo. Vestibulum risus ligula, eleifend a arcu vel, semper vestibulum risus.
+      Nam eu est orci. Nunc ultricies bibendum felis, in tempus massa mattis id.
+      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Nam eu erat dignissim, tincidunt justo eu, tincidunt est.
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Sed imperdiet eleifend nibh, in tincidunt leo. Nunc et orci ullamcorper, ullamcorper ipsum ut, bibendum enim.
+      Donec sed bibendum dolor, at cursus orci. Pellentesque quis diam gravida, volutpat massa eget, sagittis augue.
+      Maecenas semper mollis nunc non eleifend. Donec vel faucibus ante.
+      Aliquam sagittis, orci at tempor pharetra, diam nisi vulputate odio, sed pellentesque leo ligula non erat.
+      Aliquam cursus orci eu blandit iaculis. Donec vel vehicula velit, vel gravida lorem.
 
-<p><br>
-Suspendisse potenti. Maecenas vitae consectetur ligula, at faucibus dui.
-Sed ultricies commodo nulla, nec hendrerit libero pulvinar at. Duis at nibh a nunc sodales gravida.
-Pellentesque sed nisl mi. Aenean luctus augue quis ipsum pharetra, a auctor diam vehicula.
-Nulla euismod, arcu porttitor gravida eleifend, purus ipsum luctus nunc, ut luctus nisi turpis a enim.
-Morbi a pharetra eros. Donec porta nibh diam, faucibus aliquet augue fermentum eu. Vivamus faucibus mauris a libero viverra porta.
-Fusce vitae lectus quam. Duis id semper velit, et efficitur massa. Suspendisse potenti. Sed euismod maximus nibh a aliquet.
+      Pellentesque scelerisque nisi nulla, sed euismod arcu eleifend lobortis.
+      Donec sapien nisi, ultricies nec quam non, scelerisque auctor dui.
+      Phasellus enim eros, iaculis vitae euismod pharetra, sodales sed velit. Suspendisse potenti.
+      Mauris fermentum orci ac enim semper viverra. Curabitur in libero nisi.
+      Proin risus elit, tempus luctus pulvinar porta, pharetra et quam. Donec tincidunt arcu vel libero faucibus consectetur.
+      Cras ac feugiat libero. Sed orci lorem, hendrerit ac nibh sed, ultrices suscipit diam.
+      Mauris auctor tempor lacus sit amet tempor.
+      </p>
 
-Pellentesque a pretium augue, nec fermentum justo. Vestibulum risus ligula, eleifend a arcu vel, semper vestibulum risus.
-Nam eu est orci. Nunc ultricies bibendum felis, in tempus massa mattis id.
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Nam eu erat dignissim, tincidunt justo eu, tincidunt est.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-Sed imperdiet eleifend nibh, in tincidunt leo. Nunc et orci ullamcorper, ullamcorper ipsum ut, bibendum enim.
-Donec sed bibendum dolor, at cursus orci. Pellentesque quis diam gravida, volutpat massa eget, sagittis augue.
-Maecenas semper mollis nunc non eleifend. Donec vel faucibus ante.
-Aliquam sagittis, orci at tempor pharetra, diam nisi vulputate odio, sed pellentesque leo ligula non erat.
-Aliquam cursus orci eu blandit iaculis. Donec vel vehicula velit, vel gravida lorem.
-
-Pellentesque scelerisque nisi nulla, sed euismod arcu eleifend lobortis.
-Donec sapien nisi, ultricies nec quam non, scelerisque auctor dui.
-Phasellus enim eros, iaculis vitae euismod pharetra, sodales sed velit. Suspendisse potenti.
-Mauris fermentum orci ac enim semper viverra. Curabitur in libero nisi.
-Proin risus elit, tempus luctus pulvinar porta, pharetra et quam. Donec tincidunt arcu vel libero faucibus consectetur.
-Cras ac feugiat libero. Sed orci lorem, hendrerit ac nibh sed, ultrices suscipit diam.
-Mauris auctor tempor lacus sit amet tempor.
-</p>
-<br>
-<br><br>
-<a href="index.html"><button type="button" name="button">Retour accueil</button></a><a href="articles.html"><button type="button" name="button">Article suivant</button></a>
-
-<section>
-  <h2>Laissez un commentaire :</h2>
-  <form class="" action="index.html" method="post">
-    <p>
-      <label>Votre nom</label><br> <input type="text" name="nom" value=""><br>
-      <label>Votre adresse email</label><br> <input type="email" name="mail" value=""><br>
-      <label>Votre message</label><br> <textarea name="textarea" rows="8" cols="80"></textarea> <br>
-      <a href="404.html"><button type="button" name="button">Envoyer</button></a>
-    </p>
-  </form>
-</section>
-
+      <a class="btn" href="index.html"> Retour accueil </a><a class="btn" href="articles.html"> Article suivant </a>
+    </div>
+  </section>
+  <section>
+    <div class="article mainArticle shadow">
+      <h3>Laissez moi un message</h3>
+      <form action="404.html" method="post">
+      <p>
+      <label for="name" class="flex">Votre nom</label><input type="text" name="nom" id="nom" value="">
+      <label for="email" class="flex">Votre adresse email</label><input type="email" name="mail" id="mail" value="">
+      <label for="textarea" class="flex">Votre message</label><textarea name="textarea" id="textarea" rows="10" cols="100%"></textarea>
+      </form>
+      <a class="btn" href="404.html">Envoyer</a>
+      <a class="btn" href="index.html">Retour accueil</a>
+      </p>
+    </div>
+  </section>
 </main>
   <!-- End Content Part -->
 
