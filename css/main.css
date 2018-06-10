@@ -101,7 +101,6 @@ textarea {
 
 body {
   background-color: white;
-  padding: 1em;
 }
 
 .mainColor {
@@ -144,6 +143,36 @@ body {
   display: flex;
 }
 
+.place {
+  display: inline-block;
+}
+
+.font {
+    font-family: 'BioRhyme Expanded', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img {
+  width: 50%;
+}
+
+.displayed {
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+    padding: .5em;
+  }
+
+  .shadow {
+    box-shadow: 6px 6px 15px black;
+    margin-top: 2em;
+  }
+
+  .border {
+    border: 1px solid black;
+  }
+
 /* end global classes */
 
 
@@ -151,10 +180,6 @@ body {
 
 a:hover {
   color:black;
-}
-
-.img {
-  width: 25%;
 }
 
 header section, footer {
@@ -176,16 +201,6 @@ ul, li, nav {
 
 section {
   margin-bottom: 1.5em;
-}
-
-.place {
-  display: inline-block;
-}
-
-.font {
-    font-family: 'BioRhyme Expanded', serif;
-    font-weight: bold;
-    text-align: center;
 }
 
 h1 {
@@ -221,14 +236,6 @@ h4 {
 
 /* Start Header style*/
 
-.displayed {
-    display: block;
-    margin: auto;
-    width: 75%;
-    border: 5px solid black;
-    padding: .5em;
-  }
-
 .logo {
   width: 10%
 }
@@ -262,11 +269,6 @@ footer {
 
 
 /* Start index main style*/
-.shadow {
-  box-shadow: 6px 6px 6px black;
-  border: 1px solid black;
-  margin-top: 2em;
-}
 
 .bio {
   float: left;
@@ -331,9 +333,8 @@ table {
   margin-bottom: 2em;
 }
 
-td {
+td, th {
   border: solid 1px black;
-  background-color: #FFFACC;
 }
 
 /*End biographie main style*/
